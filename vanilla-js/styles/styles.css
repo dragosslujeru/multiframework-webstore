@@ -1,0 +1,36 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.top-nav {
+    justify-self: end;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    justify-content: end;
+    align-items: center;
+}
+
+#search {
+    height: 10px;
+    width: 100%;
+}
+
+.top-logo {
+    margin-right: auto;
+}
+
+.top-link {
+    justify-self: end;
+}
+
+.top-nav-item {
+    flex: 1 1 0;
+}
+.top-search {
+    flex: 2 1 0;
+}
